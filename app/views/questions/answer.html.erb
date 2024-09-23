@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row justify-content-start">
+    <div class="mb-6">
+      <h1>Stupid Coaching</h1>
+        <div class="callout callout-primary">
+          <p><strong><%=params[:question]%></strong></p>
+          <p>-me</p>
+        </div>
+
+        <div class="callout callout-warning">
+          <p><strong><%=@message%></strong></p>
+          <p>-your coach</p>
+        </div>
+
+      <%= link_to "Ask a question", ask_path %>
+    </div>
+  </div>
+</div>
